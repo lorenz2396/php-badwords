@@ -8,8 +8,9 @@
     <body>
         <div>
             <form action="indexResponse.php" method="get">
+                <textarea name="textArea" id="textArea" cols="30" rows="5" placeholder="Your text"></textarea>
                 <input type="text" name="badWord" placeholder="Text to be censored">
-                <textarea name="textArea" id="textArea" cols="30" rows="10" placeholder="Your text"></textarea>
+                
                 <button type="submit">
                     Submit
                 </button>

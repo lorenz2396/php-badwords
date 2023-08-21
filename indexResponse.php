@@ -12,13 +12,13 @@
     <body>
     <p>
         <?php
-            echo 'text from user: '.$userText;
+            echo 'Text from user: '.$userText;
         ?>
     </p>
 
     <p>
         <?php
-            echo 'changed Text: ' . str_replace("$badWord", "***", $userText);
+            echo 'Changed Text: ' . str_replace("$badWord", "***", $userText);
         ?>
     </p>
     </body>
