@@ -8,8 +8,18 @@
     <body>
         <div>
             <form action="indexResponse.php" method="get">
-                <textarea name="textArea" id="textArea" cols="30" rows="5" placeholder="Your text"></textarea>
-                <input type="text" name="badWord" placeholder="Text to be censored">
+                <div>
+                    <label for="userText">
+                        Paragrafo
+                    </label>
+                    <textarea name="textArea" id="textArea" cols="30" rows="5" placeholder="Your text"></textarea>
+                </div>
+                <div>
+                    <label for="badWord">
+                        Parola da censurare
+                    </label>
+                    <input type="text" name="badWord" placeholder="Text to be censored">
+                </div>
                 
                 <button type="submit">
                     Submit
